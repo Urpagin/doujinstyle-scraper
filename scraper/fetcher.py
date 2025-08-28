@@ -237,6 +237,7 @@ class Metrics:
 
     @classmethod
     def hook_httpx_client(cls, client: httpx.AsyncClient):
+        print(f'Setting up hook_httpx_client()')
         client.event_hooks = {
             'request': [cls._on_httpx_request],
             'response': [cls._on_httpx_response]
@@ -244,7 +245,7 @@ class Metrics:
 
     async def _on_httpx_request(self, request) -> None:
         # count by current request method on the wire
-        print(request)
+        print(f'_on_httpx_request() request: {request}')
         await self.inc_req(request.method)
 
     async def _on_httpx_response(self, response: httpx.Response) -> None:
