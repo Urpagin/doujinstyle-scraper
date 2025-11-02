@@ -77,6 +77,7 @@ This returns the normal HTTP that is also sent when visiting via a web browser.
   "download_link": ""
 }
 ```
+# TODO: Rewrite this incomprehensible mess below
 
 This returns the download link linked with the item (usually Mediafire or Mega).
 
