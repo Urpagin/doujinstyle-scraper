@@ -29,8 +29,7 @@ likely break.
 
 It is also likely the website may modernize in a way that adds a cruel CAPTCHA or rate limiter.
 
-There is also the possibility of the website being taken down, somehow. At the time of writing this, it is written "
-Version 3" near the
+There is also the possibility of the website being taken down, somehow. At the time of writing this, it is written "Version 3" near the
 site's logo, implying other versions of the website might have been taken down, or just modernized.
 
 ![doujinstyle site logo](./doujinstyle-logo.png)
